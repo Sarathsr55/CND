@@ -1,0 +1,95 @@
+.Skills_container {
+    color: white;
+    
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scale: 0.7;
+}
+
+@media screen and (max-width : 1200px ) and (min-width:900px) {
+    .Skills{
+        scale: 0.6 !important;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .skills{
+        scale: 0.5 !important;
+    }
+}
+
+.top_por {
+    width: 0;
+    border-bottom: 30px solid rgba(0, 0, 0, 0.750);
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    
+}
+
+.center_por {
+    width: 104px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.750);
+    position: relative;
+}
+
+.bottom_por {
+    width: 0;
+    border-top: 30px solid rgba(0, 0, 0, 0.750);
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.hex{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -26px;
+    filter: drop-shadow(5px 5px 15px #0872fc72);
+}
+.hex .top{
+    width: 0;
+    border-bottom: 30px solid rgb(74, 74, 74);
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle{
+    width: 104px;
+    height: 60px;
+    background: rgba(74, 74, 74, 0.311);
+    
+}
+.hex .bottom{
+    width: 0;
+    border-top: 30px solid rgba(74, 74, 74, 0.311);
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex-row{
+    clear: left;
+}
+.hex-row .even{
+    margin-left: 0;
+}
+.skill-content{
+    z-index: 53;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caption{
+    color: rgba(255, 255, 255, 0.732);
+    position: absolute;
+    top: 30px;
+}
+.cardimage{
+    max-height: 45px;
+}

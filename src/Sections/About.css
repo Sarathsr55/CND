@@ -1,0 +1,93 @@
+.about_container{
+    min-height: 100vh;
+    background: url('../../assets/images/herobg.png');
+    background-size: cover;
+    padding: 0 165px 0 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width : 800px) {
+    .about_container{
+        padding: 120px 40px 16px 40px;
+    }
+}
+
+.card_container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+
+.card1{
+    animation: horimove1 3s infinite 2s reverse;
+}
+.card2{
+    animation: horimove2 3s infinite backwards 2s reverse;
+}
+.card3{
+    animation: horimove3 3s infinite forwards 2s reverse;
+}
+.card4{
+    animation: horimove2 3s infinite backwards 2s reverse;
+}
+
+.card1:hover{
+    animation: none;
+}
+.card2:hover{
+    animation: none;
+}
+.card3:hover{
+    animation: none;
+}
+.card4:hover{
+    animation: none;
+}
+
+@keyframes horimove1 {
+    from{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(1rem);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes horimove2 {
+    from{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-1rem);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes horimove3 {
+    from{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(1rem);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes horimove4 {
+    from{
+        transform: translateX(0);
+    }
+    40%{
+        transform: translateX(-1rem);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}

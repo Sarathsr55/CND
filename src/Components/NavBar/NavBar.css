@@ -1,0 +1,30 @@
+.navbar_container{
+    position: fixed;
+    z-index: 101;
+    height: 60px;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0 16px 0 !important;
+}
+.option_container{
+    display:flex;
+    color:white;
+    font-family:'Comfortaa';
+    min-width: fit-content !important;
+    justify-content: space-evenly;
+}
+.options{
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px !important;
+    font-size: 15px;
+}
+.options:hover{
+    color: #915eff;
+    border-bottom: .5px solid #915eff;
+}
+.nav-font{
+    font-size: 8;
+}
