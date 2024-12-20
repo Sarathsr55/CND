@@ -100,7 +100,7 @@ export function Dev(props) {
         <group name="Workplace_016" position={[4.763, 0.737, 1.369]} rotation={[0, 1.571, 0]} scale={0.001} />
 
         { 
-          // <motion.group   transition={{type:'spring',duration:0.6}}  animate={{scale:scaleChair,rotateX:chairRot.x,rotateY:chairRot.y,rotateZ:chairRot.z}}  position={[chairPos.x, chairPos.y, chairPos.z]}>
+          
           <motion.group   transition={{type:'spring',duration:0.6}}  animate={{scale:scaleChair}}  position={[chairPos.x, chairPos.y, chairPos.z]} rotation={[chairRot.x,chairRot.y,chairRot.z]}>
             <group name="Plane" >
               <mesh name="Plane003_1" geometry={nodes.Plane003_1.geometry} material={materials['Material.001']} />
